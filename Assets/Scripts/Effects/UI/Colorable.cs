@@ -18,12 +18,12 @@ namespace Effects.UI {
 		
 		public void StopAll() {
             if(colorCoroutine != null) {
-                GameManager.Instance.StopCoroutine(colorCoroutine);
+                TweenManager.Instance.StopCoroutine(colorCoroutine);
             }
         }
 
         public void SetColor(Color colorTo, float duration = 0, float delay = 0) {
-            GameManager.Instance.StartCoroutine(DelayedSetColorCoroutine(colorTo, duration, delay));
+            TweenManager.Instance.StartCoroutine(DelayedSetColorCoroutine(colorTo, duration, delay));
         }
 
         private IEnumerator DelayedSetColorCoroutine(Color colorTo, float duration, float delay) {
@@ -31,10 +31,10 @@ namespace Effects.UI {
                 yield return new WaitForSeconds(delay);
             }
             if(colorCoroutine != null) {
-                GameManager.Instance.StopCoroutine(colorCoroutine);
+                TweenManager.Instance.StopCoroutine(colorCoroutine);
             }
             colorCoroutine = SetColorCoroutine(colorTo, duration);
-            GameManager.Instance.StartCoroutine(colorCoroutine);
+            TweenManager.Instance.StartCoroutine(colorCoroutine);
         }
 
         private IEnumerator SetColorCoroutine(Color colorTo, float duration) {

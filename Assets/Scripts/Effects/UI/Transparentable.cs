@@ -17,12 +17,12 @@ namespace Effects.UI {
 
 		public void StopAll() {
 			if(alphaCoroutine != null) {
-                GameManager.Instance.StopCoroutine(alphaCoroutine);
+				TweenManager.Instance.StopCoroutine(alphaCoroutine);
 			}
 		}
 
 		public void SetAlpha(float alphaTo, float duration = 0, float delay = 0) {
-            GameManager.Instance.StartCoroutine(DelayedSetAlphaCoroutine(alphaTo, duration, delay));
+			TweenManager.Instance.StartCoroutine(DelayedSetAlphaCoroutine(alphaTo, duration, delay));
 		}
 
 		private IEnumerator DelayedSetAlphaCoroutine(float alphaTo, float duration, float delay) {
@@ -30,10 +30,10 @@ namespace Effects.UI {
 				yield return new WaitForSeconds(delay);
 			}
 			if(alphaCoroutine != null) {
-                GameManager.Instance.StopCoroutine(alphaCoroutine);
+				TweenManager.Instance.StopCoroutine(alphaCoroutine);
 			}
 			alphaCoroutine = SetAlphaCoroutine(alphaTo, duration);
-            GameManager.Instance.StartCoroutine(alphaCoroutine);
+			TweenManager.Instance.StartCoroutine(alphaCoroutine);
 		}
 
 		private IEnumerator SetAlphaCoroutine(float alphaTo, float duration) {

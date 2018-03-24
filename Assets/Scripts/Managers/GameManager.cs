@@ -50,7 +50,7 @@ public class GameManager : Singleton<GameManager> {
     private IEnumerator LoadSceneCoroutine(string sceneName, UnityAction actionOnComplete) {
         this.loadingRectTransform.gameObject.SetActive(true);
         this.loadingTransparentable.SetAlpha(1, 0.25f, 0);
-        this.loadingText.text = "0%";
+        this.loadingText.text = "Loading... 0%";
         this.loadingImage.rectTransform.sizeDelta = new Vector2(0, this.loadingImage.rectTransform.sizeDelta.y);
 
         yield return new WaitForSeconds(1);
@@ -60,7 +60,7 @@ public class GameManager : Singleton<GameManager> {
         while(!asyncOperation.isDone) {
             float progress = Mathf.Clamp01(asyncOperation.progress / 0.9f); //De 0 a 0.9 es la carga de la escena. De 0.9 a 1 es la activación de la escena
             this.loadingImage.rectTransform.sizeDelta = new Vector2(256 * progress, this.loadingImage.rectTransform.sizeDelta.y);
-            this. loadingText.text = ((int) progress * 100) + "%";
+            this. loadingText.text = "Loading... " + ((int) progress * 100) + "%";
             yield return null;
         }
 
