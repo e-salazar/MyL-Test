@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9071eb0d9eee20a48bd50d39442d271c, type: 3}
+  m_Name: 3 Pachamama
+  m_EditorClassIdentifier: 
+  nombre: Pachamama
+  imagen: {fileID: 21300000, guid: bbd3df6ace3a7a94ab0bf5c344939ede, type: 3}
+  idEnLaEdicion: 3
+  textoEpico: "T\xFA que reinas en el universo con el sano equilibrio, habla por nosotros
+    con los grandes vientos, con el agua, con el fuego y con la tierra.\r"
+  coste: 5
+  fuerza: 5
+  tipo: {fileID: 11400000, guid: c6e53b741df9e4c42b66a31e785f8b9e, type: 2}
+  raza: {fileID: 11400000, guid: 1003d86577d71f341823537b516aa011, type: 2}
+  frecuencia: {fileID: 11400000, guid: 997e436d15eddbd4f918da0585587952, type: 2}
+  edicion: {fileID: 11400000, guid: 2c1a85b8b11863f4ba2b56f2f59f21cd, type: 2}
+  formato: 13
+  habilidades: 65
+  efecto: "\xDAnica. Imbloqueable. Este Aliado no puede ser Anulado. Cuando este Aliado
+    entra en juego, puedes buscar en tu Mazo Castillo una carta que no sea Aliado
+    ni Oro y jugarla sin pagar su coste. En tu Fase de Vigilia, una vez por turno,
+    puedes pagar un Oro para buscar en tu Mazo Castillo una carta que no sea Aliado
+    de coste igual a menor a la cantidad de Aliados de Raza Ancestral que controles
+    y ponerla en tu mano.\r"
+  reverso: {fileID: 21300000, guid: 08c36ba43590da7408bbcade9517f3e5, type: 3}

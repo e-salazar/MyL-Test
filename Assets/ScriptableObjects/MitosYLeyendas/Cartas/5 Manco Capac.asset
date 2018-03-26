@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9071eb0d9eee20a48bd50d39442d271c, type: 3}
+  m_Name: 5 Manco Capac
+  m_EditorClassIdentifier: 
+  nombre: Manco Capac
+  imagen: {fileID: 21300000, guid: 854d6a845efa3fb4586d6cf3088508c5, type: 3}
+  idEnLaEdicion: 5
+  textoEpico: "El hijo de Inti gui\xF3 a la gente de los Andes y forj\xF3 un imperio
+    que se levantar\xEDa orgulloso por todo el continente."
+  coste: 3
+  fuerza: 4
+  tipo: {fileID: 11400000, guid: c6e53b741df9e4c42b66a31e785f8b9e, type: 2}
+  raza: {fileID: 11400000, guid: 052f04ddce5594b459e253d3d27ae0b9, type: 2}
+  frecuencia: {fileID: 11400000, guid: 997e436d15eddbd4f918da0585587952, type: 2}
+  edicion: {fileID: 11400000, guid: 2c1a85b8b11863f4ba2b56f2f59f21cd, type: 2}
+  formato: 13
+  habilidades: 257
+  efecto: "\xDAnica. Guardi\xE1n. Cuando este Aliado entra en juego, puedes buscar
+    un Aliado de Raza H\xE9roe en tu Mazo Castillo y ponerlo en tu mano. Mientras
+    este Aliado est\xE9 en juego, si todos los Aliados que controlas son de Raza H\xE9roe,
+    los Aliados en juego que no sean Guardi\xE1n no pueden ser declarados atacantes
+    y no pueden activar sus habilidades."
+  reverso: {fileID: 21300000, guid: 08c36ba43590da7408bbcade9517f3e5, type: 3}

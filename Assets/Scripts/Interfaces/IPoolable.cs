@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using DesignPatterns;
+using UnityEngine;
 
 namespace Interfaces {
     public interface IPoolable<T> where T : MonoBehaviour, IPoolable<T> {

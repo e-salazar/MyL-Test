@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9071eb0d9eee20a48bd50d39442d271c, type: 3}
+  m_Name: 4 Camazotz
+  m_EditorClassIdentifier: 
+  nombre: Camazotz
+  imagen: {fileID: 21300000, guid: 4f75fbc470faca94f921aaf45a0cead9, type: 3}
+  idEnLaEdicion: 4
+  textoEpico: "El murci\xE9lago de la muerte se desliza en la noche profunda, silencioso
+    y certero, es una lanza arrojada contra la vida misma."
+  coste: 3
+  fuerza: 3
+  tipo: {fileID: 11400000, guid: c6e53b741df9e4c42b66a31e785f8b9e, type: 2}
+  raza: {fileID: 11400000, guid: 4e82bdf054405304d949397e9e1261fa, type: 2}
+  frecuencia: {fileID: 11400000, guid: 997e436d15eddbd4f918da0585587952, type: 2}
+  edicion: {fileID: 11400000, guid: 2c1a85b8b11863f4ba2b56f2f59f21cd, type: 2}
+  formato: 13
+  habilidades: 8321
+  efecto: "\xDAnica. Exhumar. Este Aliado no puede ser objetivo de habilidades de
+    Aliados. En tu Fase de Vigilia, una vez por turno, puedes buscar en tu Mazo Castillo
+    un Aliado de Raza Bestia de coste 2 o menos y jugarlo sin pagar su coste. Luego,
+    Alimenta ese Aliado. Mientras este Aliado est\xE9 en juego, los dem\xE1s Aliados
+    Alimentados que controles no pueden ser Destruidos por Talismanes."
+  reverso: {fileID: 21300000, guid: 08c36ba43590da7408bbcade9517f3e5, type: 3}

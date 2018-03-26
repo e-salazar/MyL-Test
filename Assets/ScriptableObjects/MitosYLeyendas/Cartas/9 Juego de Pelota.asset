@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9071eb0d9eee20a48bd50d39442d271c, type: 3}
+  m_Name: 9 Juego de Pelota
+  m_EditorClassIdentifier: 
+  nombre: Juego de Pelota
+  imagen: {fileID: 21300000, guid: b7f94a1cd7ce3c84f97b7b7546ab65d4, type: 3}
+  idEnLaEdicion: 9
+  textoEpico: "M\xE1s que un juego, un ritual que se extend\xEDa por todo Mesoam\xE9rica.
+    Sus jugadores fueron h\xE9roes gloriosos, gladiadores de su pueblo."
+  coste: 1
+  fuerza: 0
+  tipo: {fileID: 11400000, guid: 28bceabff4e694d48852008df784633d, type: 2}
+  raza: {fileID: 0}
+  frecuencia: {fileID: 11400000, guid: 997e436d15eddbd4f918da0585587952, type: 2}
+  edicion: {fileID: 11400000, guid: 2c1a85b8b11863f4ba2b56f2f59f21cd, type: 2}
+  formato: 13
+  habilidades: 0
+  efecto: "Destruye la carta objetivo que no sea Oro. Luego, tu oponente puede pagar
+    un Oro para jugar este Talism\xE1n sin pagar su coste."
+  reverso: {fileID: 21300000, guid: 08c36ba43590da7408bbcade9517f3e5, type: 3}
