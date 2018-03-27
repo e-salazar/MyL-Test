@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 398fd43f909ff5d40a3fcd67cbd2f524, type: 3}
   m_Name: Exhumar
   m_EditorClassIdentifier: 
-  tipo: 128
-  nombre: Exhumar
-  descripcion: "Puedes jugar esta carta desde tu Cementerio pagando su coste. Si es
+  _tipo: 128
+  _nombre: Exhumar
+  _descripcion: "Puedes jugar esta carta desde tu Cementerio pagando su coste. Si es
     un Talism\xE1n, Desti\xE9rralo."

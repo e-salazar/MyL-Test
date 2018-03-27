@@ -19,8 +19,8 @@ namespace Scene4.Windows {
         public Image frontalImage;
         public Image reversoImage;
 
-        public ScriptableObjects.MythsAndLegends.Cards.Tipo tipoAliado;
-        public ScriptableObjects.MythsAndLegends.Cards.Tipo tipoOro;
+        public ScriptableObjects.MitosyLeyendas.Cartas.Tipo tipoAliado;
+        public ScriptableObjects.MitosyLeyendas.Cartas.Tipo tipoOro;
 
         public void Load(Card card) {
             this._card = card;
@@ -58,6 +58,10 @@ namespace Scene4.Windows {
 
             this.frontalImage.sprite = this._card.cartaScriptableObject.imagen;
             this.reversoImage.sprite = this._card.cartaScriptableObject.reverso;
+        }
+        public void DeleteActualCard() {
+            Destroy(this._card.gameObject);
+            Hide();
         }
 
         public void OnClick1MasCosteButton() {

@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 398fd43f909ff5d40a3fcd67cbd2f524, type: 3}
   m_Name: Indestructible
   m_EditorClassIdentifier: 
-  tipo: 2048
-  nombre: Indestructible
-  descripcion: "Mientras est\xE9 en juego esta carta no puede ser destruida."
+  _tipo: 2048
+  _nombre: Indestructible
+  _descripcion: "Mientras est\xE9 en juego esta carta no puede ser destruida."

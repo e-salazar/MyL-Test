@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 398fd43f909ff5d40a3fcd67cbd2f524, type: 3}
   m_Name: Oscuridad
   m_EditorClassIdentifier: 
-  tipo: 1024
-  nombre: Oscuridad
-  descripcion: 
+  _tipo: 1024
+  _nombre: Oscuridad
+  _descripcion: 

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9071eb0d9eee20a48bd50d39442d271c, type: 3}
+  m_Name: 14 Atlatl
+  m_EditorClassIdentifier: 
+  _nombre: Atlatl
+  _imagen: {fileID: 21300000, guid: e31b33edcb8171748a41abc7bffd9d16, type: 3}
+  _idEnLaEdicion: 14
+  _textoEpico: "Mi lanza no hace ruido al volar, es una extensi\xF3n de mi brazo y
+    este a su vez sigue los designios de mi alma."
+  _coste: 1
+  _fuerza: 0
+  _tipo: {fileID: 11400000, guid: 2c348f74cca7bb541a46274024d638ee, type: 2}
+  _raza: {fileID: 0}
+  _frecuencia: {fileID: 11400000, guid: 997e436d15eddbd4f918da0585587952, type: 2}
+  _edicion: {fileID: 11400000, guid: 2c1a85b8b11863f4ba2b56f2f59f21cd, type: 2}
+  _formato: 13
+  _habilidades: 0
+  _efecto: "El Aliado portador gana 2 a la Fuerza. Al comienzo de tu Fase Final, si
+    el Aliado portador hizo da\xF1o de combate al Mazo Castillo oponente, puedes buscar
+    un Oro en tu Mazo Castillo y ponerlo en tu Zona de Oro Pagado."
+  _reverso: {fileID: 21300000, guid: 08c36ba43590da7408bbcade9517f3e5, type: 3}

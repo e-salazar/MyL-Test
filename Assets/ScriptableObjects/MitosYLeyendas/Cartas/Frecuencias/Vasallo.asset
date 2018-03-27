@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e83ba8092bd8a124780d47afa26db0b7, type: 3}
   m_Name: Vasallo
   m_EditorClassIdentifier: 
-  nombre: Vasallo
+  _nombre: Vasallo

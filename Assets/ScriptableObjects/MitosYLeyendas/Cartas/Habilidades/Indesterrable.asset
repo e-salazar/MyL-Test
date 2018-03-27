@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 398fd43f909ff5d40a3fcd67cbd2f524, type: 3}
   m_Name: Indesterrable
   m_EditorClassIdentifier: 
-  tipo: 4096
-  nombre: Indesterrable
-  descripcion: "Mientras est\xE9 en juego esta carta no puede ser desterrado."
+  _tipo: 4096
+  _nombre: Indesterrable
+  _descripcion: "Mientras est\xE9 en juego esta carta no puede ser desterrado."

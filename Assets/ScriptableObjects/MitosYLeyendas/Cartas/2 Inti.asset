@@ -11,22 +11,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9071eb0d9eee20a48bd50d39442d271c, type: 3}
   m_Name: 2 Inti
   m_EditorClassIdentifier: 
-  nombre: Inti
-  imagen: {fileID: 21300000, guid: cd08ccc0472773c4b89bd3604fab3739, type: 3}
-  idEnLaEdicion: 2
-  textoEpico: "Su luz ilumina a los hombres, los aleja de las tinieblas y los lleva
+  _nombre: Inti
+  _imagen: {fileID: 21300000, guid: cd08ccc0472773c4b89bd3604fab3739, type: 3}
+  _idEnLaEdicion: 2
+  _textoEpico: "Su luz ilumina a los hombres, los aleja de las tinieblas y los lleva
     m\xE1s all\xE1 de sus propios sue\xF1os.\r"
-  coste: 4
-  fuerza: 4
-  tipo: {fileID: 11400000, guid: c6e53b741df9e4c42b66a31e785f8b9e, type: 2}
-  raza: {fileID: 11400000, guid: 0936c9bba9a79e04fa78af228ad7b6ac, type: 2}
-  frecuencia: {fileID: 11400000, guid: 997e436d15eddbd4f918da0585587952, type: 2}
-  edicion: {fileID: 11400000, guid: 2c1a85b8b11863f4ba2b56f2f59f21cd, type: 2}
-  formato: 13
-  habilidades: 4609
-  efecto: "\xDAnica. Luz. Indesterrable. Si controlas tres o m\xE1s T\xF3tem, este
+  _coste: 3
+  _fuerza: 3
+  _tipo: {fileID: 11400000, guid: c6e53b741df9e4c42b66a31e785f8b9e, type: 2}
+  _raza: {fileID: 11400000, guid: 0936c9bba9a79e04fa78af228ad7b6ac, type: 2}
+  _frecuencia: {fileID: 11400000, guid: 997e436d15eddbd4f918da0585587952, type: 2}
+  _edicion: {fileID: 11400000, guid: 2c1a85b8b11863f4ba2b56f2f59f21cd, type: 2}
+  _formato: 13
+  _habilidades: 4609
+  _efecto: "\xDAnica. Luz. Indesterrable. Si controlas tres o m\xE1s T\xF3tem, este
     Aliado no puede ser Anulado. Cuando este Aliado entra en juego, Baraja todos los
     T\xF3tems oponentes y todos los dem\xE1s Aliados en juego. Una vez por turno,
     puedes elegir un T\xF3tem objetivo en juego o en tu Cementerio y activar una de
     sus habilidades.\r"
-  reverso: {fileID: 21300000, guid: 08c36ba43590da7408bbcade9517f3e5, type: 3}
+  _reverso: {fileID: 21300000, guid: 08c36ba43590da7408bbcade9517f3e5, type: 3}

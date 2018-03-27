@@ -9,10 +9,10 @@ public class Scene4Manager : MonoBehaviour {
     public Transform tableTransform;
     public CardInfoWindow cardWindow;
     public GameObject cardGameObject;
-    public List<ScriptableObjects.MythsAndLegends.Carta> cartasData = new List<ScriptableObjects.MythsAndLegends.Carta>();
+    public List<ScriptableObjects.MitosyLeyendas.Carta> cartasData = new List<ScriptableObjects.MitosyLeyendas.Carta>();
 
     public void OnClickCreateButton() {
-        foreach(ScriptableObjects.MythsAndLegends.Carta cartaData in cartasData) {
+        foreach(ScriptableObjects.MitosyLeyendas.Carta cartaData in cartasData) {
             CreateCard(cartaData);
         }
     }
@@ -32,8 +32,13 @@ public class Scene4Manager : MonoBehaviour {
             cardWindow.Show();
         }
     }
+    public void OnClickClose() {
+        MoveCardToTable(this.cardInZoom);
+        this.cardInZoom = null;
+        cardWindow.Hide();
+    }
 
-    public void CreateCard(ScriptableObjects.MythsAndLegends.Carta cartaData) {
+    public void CreateCard(ScriptableObjects.MitosyLeyendas.Carta cartaData) {
         Card card = Instantiate(cardGameObject).GetComponent<Card>();
         card.Load(cartaData);
         card.gameObject.SetActive(true);

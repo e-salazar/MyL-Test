@@ -6,17 +6,17 @@ namespace Scene1.Questions {
     public class AnagramQuestion : Question {
         private int _index;
         private List<string> _anagrams = new List<string>() {
-        "car",
-        "bus",
-        "latitude",
-        "lakes",
-        "artist",
-        "north",
-        "south",
-        "east",
-        "west",
-        "ocean",
-    };
+            "car",
+            "bus",
+            "latitude",
+            "lakes",
+            "artist",
+            "north",
+            "south",
+            "east",
+            "west",
+            "ocean",
+        };
 
         public override void CreateQuestion() {
             this._index = Random.Range(0, this._anagrams.Count);

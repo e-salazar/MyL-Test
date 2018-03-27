@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9071eb0d9eee20a48bd50d39442d271c, type: 3}
+  m_Name: 17 Iquib Balam
+  m_EditorClassIdentifier: 
+  _nombre: Iquib Balam
+  _imagen: {fileID: 21300000, guid: 31028942e92c13440acf8d4a226a633a, type: 3}
+  _idEnLaEdicion: 17
+  _textoEpico: "El jaguar negro es el primero entre sus hermanos, por lejos el m\xE1s
+    feroz y misterioso de los cuatro."
+  _coste: 2
+  _fuerza: 4
+  _tipo: {fileID: 11400000, guid: c6e53b741df9e4c42b66a31e785f8b9e, type: 2}
+  _raza: {fileID: 11400000, guid: 4ba575e19b4610a47bc96b83048691c4, type: 2}
+  _frecuencia: {fileID: 11400000, guid: cd894400b3dee28409e4c0ea731ca9b7, type: 2}
+  _edicion: {fileID: 11400000, guid: 2c1a85b8b11863f4ba2b56f2f59f21cd, type: 2}
+  _formato: 13
+  _habilidades: 34
+  _efecto: Retador. Furia. Este Aliado no puede portar Armas. Cuando este Aliado sea
+    bloqueado, el Aliado bloqueador pierde su habilidad hasta la Fase Final. Este
+    Aliado no puede ser objetivo de habilidades de Aliados.
+  _reverso: {fileID: 21300000, guid: 08c36ba43590da7408bbcade9517f3e5, type: 3}

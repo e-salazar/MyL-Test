@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 153fd0d9cad438c45a651091ab76875a, type: 3}
   m_Name: Arma
   m_EditorClassIdentifier: 
-  nombre: Arma
+  _nombre: Arma

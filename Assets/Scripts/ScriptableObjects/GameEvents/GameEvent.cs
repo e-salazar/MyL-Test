@@ -2,7 +2,7 @@
 using UnityEngine;
 
 namespace ScriptableObjects.Events {
-    [CreateAssetMenu(menuName = "ScriptableObject/" + nameof(GameEvent))]
+    [CreateAssetMenu(menuName = "ScriptableObject/" + nameof(GameEvent), fileName = nameof(GameEvent))]
     public class GameEvent : ScriptableObject {
         private readonly List<GameEventListener> _eventListeners = new List<GameEventListener>();
 

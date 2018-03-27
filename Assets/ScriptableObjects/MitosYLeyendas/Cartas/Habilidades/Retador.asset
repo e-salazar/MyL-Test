@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 398fd43f909ff5d40a3fcd67cbd2f524, type: 3}
   m_Name: Retador
   m_EditorClassIdentifier: 
-  tipo: 32
-  nombre: Retador
-  descripcion: 
+  _tipo: 32
+  _nombre: Retador
+  _descripcion: 

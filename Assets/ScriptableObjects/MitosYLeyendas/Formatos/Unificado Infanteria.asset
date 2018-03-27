@@ -11,9 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a10941c47f607745b29bf9454812e64, type: 3}
   m_Name: Unificado Infanteria
   m_EditorClassIdentifier: 
-  onChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  nombre: Unificado Infanteria
+  _nombre: Unificado Infanteria

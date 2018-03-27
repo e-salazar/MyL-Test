@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a10941c47f607745b29bf9454812e64, type: 3}
   m_Name: Unificado
   m_EditorClassIdentifier: 
-  nombre: Unificado
+  _nombre: Unificado

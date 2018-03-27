@@ -4,6 +4,7 @@
             Correct,
             Incorrect,
             Invalid,
+            Paradox,
         }
 
         public string question;

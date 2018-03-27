@@ -12,7 +12,6 @@ namespace Scene1.Questions {
         "International",
         "Organization",
         "Federation",
-        "Union",
         "Association",
         "Potatoes",
     };

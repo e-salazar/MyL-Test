@@ -26,7 +26,7 @@ namespace Scene1.Questions {
             System.Random rng = new System.Random();
             questionWords = questionWords.OrderBy(a => rng.Next()).ToList();
 
-            this.question = "Which of these words is not synonym?: " + System.String.Join(", ", questionWords.ToArray()) + ".";
+            this.question = "Which one of these words is not synonym?: " + System.String.Join(", ", questionWords.ToArray()) + ".";
             Debug.Log("Hint: " + this._noSynonym + ".");
         }
         public override AnswerResult CheckAnswer(string answerText) {

@@ -17,7 +17,10 @@ public abstract class ScriptableObjectSource : ScriptableObject {
         //Debug.Log(this.name + ": RemoveListener (" + this._listeners.Count + " listeners)");
     }
 
-    protected void OnValidate() {
+    private void OnValidate() {
+        OnScriptableObjectChange();
+    }
+    protected void OnScriptableObjectChange() {
         //Debug.Log(this.name + ": OnValidate (" + this._listeners.Count + " listeners)");
         for(int i = this._listeners.Count - 1; i >= 0; i--) {
             this._listeners[i].OnScriptableObjectChange();

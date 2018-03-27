@@ -21,7 +21,7 @@ namespace Scene1.Questions {
 
         public override void CreateQuestion() {
             this._country = this._countryInfo.ElementAt(Random.Range(0, this._countryInfo.Count)).Key;
-            this.question = "What is the capital city of " + this._country + "?";
+            this.question = "What is " + this._country + "'s capital city?";
             Debug.Log("Hint: " + this._countryInfo[this._country] + ".");
         }
         public override AnswerResult CheckAnswer(string answerText) {

@@ -11,6 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be15b836a4147fa4e9314bb2cd8c8ea3, type: 3}
   m_Name: Hijos del Sol
   m_EditorClassIdentifier: 
-  nombre: Hijos del Sol
-  "c\xF3digo": 
-  totalCartas: 0
+  _nombre: Hijos del Sol
+  _codigo: 

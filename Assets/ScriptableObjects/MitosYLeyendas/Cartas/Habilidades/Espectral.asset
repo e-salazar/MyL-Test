@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 398fd43f909ff5d40a3fcd67cbd2f524, type: 3}
   m_Name: Espectral
   m_EditorClassIdentifier: 
-  tipo: 16
-  nombre: Espectral
-  descripcion: "Esta carta se convierte en un Talism\xE1n mientras est\xE9 en un Cementerio"
+  _tipo: 16
+  _nombre: Espectral
+  _descripcion: "Esta carta se convierte en un Talism\xE1n mientras est\xE9 en un Cementerio"

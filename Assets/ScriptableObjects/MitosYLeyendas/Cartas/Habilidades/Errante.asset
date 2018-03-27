@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 398fd43f909ff5d40a3fcd67cbd2f524, type: 3}
   m_Name: Errante
   m_EditorClassIdentifier: 
-  tipo: 4
-  nombre: Errante
-  descripcion: "S\xF3lo puedes controlar una copia de esta carta."
+  _tipo: 4
+  _nombre: Errante
+  _descripcion: "S\xF3lo puedes controlar una copia de esta carta."

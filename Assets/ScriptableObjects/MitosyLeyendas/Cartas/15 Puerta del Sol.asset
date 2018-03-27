@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9071eb0d9eee20a48bd50d39442d271c, type: 3}
+  m_Name: 15 Puerta del Sol
+  m_EditorClassIdentifier: 
+  _nombre: Puerta del Sol
+  _imagen: {fileID: 21300000, guid: 578b1614021a4604aab7e4575dd7ca8d, type: 3}
+  _idEnLaEdicion: 15
+  _textoEpico: "Solo los viejos Aimara conocen el secreto de su creaci\xF3n y la cicatriz
+    que la adorna."
+  _coste: 1
+  _fuerza: 0
+  _tipo: {fileID: 11400000, guid: 08525167833f6fd49aaed4c6ba65a97c, type: 2}
+  _raza: {fileID: 0}
+  _frecuencia: {fileID: 11400000, guid: 997e436d15eddbd4f918da0585587952, type: 2}
+  _edicion: {fileID: 11400000, guid: 2c1a85b8b11863f4ba2b56f2f59f21cd, type: 2}
+  _formato: 13
+  _habilidades: 1
+  _efecto: "\xDAnica. Cuando este T\xF3tem entra en juego, se convierte en una copia
+    de un T\xF3tem objetivo en juego."
+  _reverso: {fileID: 21300000, guid: 08c36ba43590da7408bbcade9517f3e5, type: 3}

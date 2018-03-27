@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9071eb0d9eee20a48bd50d39442d271c, type: 3}
+  m_Name: 12 Centzon Totochtin
+  m_EditorClassIdentifier: 
+  _nombre: Centzon Totochtin
+  _imagen: {fileID: 21300000, guid: b507a0b6020ebc1459d1687c1a48093b, type: 3}
+  _idEnLaEdicion: 12
+  _textoEpico: "Cuatrocientos conejos danzan embriagados por el licor sagrado, estaban
+    estrechamente ligados al sue\xF1o, la muerte y el despertar."
+  _coste: 4
+  _fuerza: 0
+  _tipo: {fileID: 11400000, guid: 28bceabff4e694d48852008df784633d, type: 2}
+  _raza: {fileID: 0}
+  _frecuencia: {fileID: 11400000, guid: 997e436d15eddbd4f918da0585587952, type: 2}
+  _edicion: {fileID: 11400000, guid: 2c1a85b8b11863f4ba2b56f2f59f21cd, type: 2}
+  _formato: 13
+  _habilidades: 2
+  _efecto: Puedes jugar cualquier cantidad de Aliados de tu mano sin pagar su coste,
+    esos Aliados ganan Furia hasta la Fase Final. Al comienzo de la Fase Final, Baraja
+    todos los Aliados que controles.
+  _reverso: {fileID: 21300000, guid: 08c36ba43590da7408bbcade9517f3e5, type: 3}

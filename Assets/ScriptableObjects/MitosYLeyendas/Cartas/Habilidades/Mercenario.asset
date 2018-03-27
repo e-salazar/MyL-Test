@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 398fd43f909ff5d40a3fcd67cbd2f524, type: 3}
   m_Name: Mercenario
   m_EditorClassIdentifier: 
-  tipo: 8
-  nombre: Mercenario
-  descripcion: Puedes tener cualquier cantidad de copias de esta carta en tu Mazo
+  _tipo: 8
+  _nombre: Mercenario
+  _descripcion: Puedes tener cualquier cantidad de copias de esta carta en tu Mazo
     Castillo

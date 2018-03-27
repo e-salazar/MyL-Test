@@ -8,7 +8,7 @@ namespace Scene1.Questions {
         public override void CreateQuestion() {
             this._a = Random.Range(1, 10);
             this._b = Random.Range(1, 10);
-            this.question = "What is " + this._a + "+" + this._b + "?";
+            this.question = "What is the result of " + this._a + "+" + this._b + "?";
             Debug.Log("Hint: " + (this._a + this._b) + ".");
         }
         public override AnswerResult CheckAnswer(string answerText) {
