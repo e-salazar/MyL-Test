@@ -18,6 +18,7 @@ namespace Scene4.Windows {
         public Text fuerzaText;
         public Image frontalImage;
         public Image reversoImage;
+        public Button deleteButton;
 
         public ScriptableObjects.MitosyLeyendas.Cartas.Tipo tipoAliado;
         public ScriptableObjects.MitosyLeyendas.Cartas.Tipo tipoOro;
@@ -82,9 +83,11 @@ namespace Scene4.Windows {
         }
 
         public void Show() {
+            this.deleteButton.gameObject.SetActive(true);
             this.gameObject.SetActive(true);
         }
         public void Hide() {
+            this.deleteButton.gameObject.SetActive(false);
             this.gameObject.SetActive(false);
         }
     }

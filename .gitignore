@@ -6,7 +6,6 @@
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
-/[Bb]uilds/
 /Assets/AssetStoreTools*
 sysinfo.txt
 *.stackdump
